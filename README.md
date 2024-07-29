@@ -12,6 +12,13 @@ Interactive User Interface: Displays employee details in a user-friendly manner.
   - **Gender-wise Filtering:** Easily filter employees based on gender.
   - **Age Filtering:** Select any desired age range using the Flutter Slider widget.
 
+## Screenshots
+<div style=align-items: center;>
+  <img width=200px height=450px src="screenshots/1.jpg">
+  <img width=200px height=450px src="screenshots/2.jpg">
+  <img width=200px height=450px src="screenshots/4.jpg">
+</div>
+
 ## Installation
 
 1. **Clone the Repository**
