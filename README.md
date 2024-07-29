@@ -16,6 +16,7 @@ Interactive User Interface: Displays employee details in a user-friendly manner.
 <div style=align-items: center;>
   <img width=200px height=450px src="screenshots/1.jpg">
   <img width=200px height=450px src="screenshots/2.jpg">
+  <img width=200px height=450px src="screenshots/3.jpg">
   <img width=200px height=450px src="screenshots/4.jpg">
 </div>
 
