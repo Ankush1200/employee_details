@@ -1,22 +1,33 @@
 # Employee Details App
 
-This Employee Details App is a Flutter-based application designed to fetch and display employee data from a network API. The app features an intuitive and aesthetically pleasing user interface, providing an excellent user experience.
+# Overview
+This Flutter project fetches employee details from an internet API and displays them through an interactive user interface. The app includes filtering features to enhance the user experience, such as gender-wise and age-wise filters. The age filter allows users to select any desired age range using the Flutter Slider widget.
+
 
 ## Features
 
-- **Display Employee Data:** The app retrieves and displays employee details from a company database via a network API.
-- **Gender Filtering:** Easily filter employees based on gender for quick and targeted searches.
-- **Age Filtering:** Utilize the Flutter slider widget to filter employees by age. This allows for precise age selection, providing flexibility and accuracy in searches.
+- **Fetch Data from API:** The app makes network requests to retrieve employee details from an internet API.
+Interactive User Interface: Displays employee details in a user-friendly manner.
+- **Filtering Options:**
+  - **Gender-wise Filtering:** Easily filter employees based on gender.
+  - **Age Filtering:** Select any desired age range using the Flutter Slider widget.
 
-## Technologies Used
+## Installation
 
-- **Flutter & Dart:** For building the cross-platform application.
-- **Network API:** To fetch real-time employee data.
-- **Flutter Slider Widget:** For implementing the age filtering feature.
-
-## How to Use
-
-1. **Clone the Repository:**
+1. **Clone the Repository**
    ```bash
    git clone https://github.com/Ankush1200/employee_details.git
 
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+3. **Run the app**
+   ```bash
+   flutter run
+
+## Contribution
+Contributions are welcome! Please fork this repository and submit a pull request for any feature enhancements or bug fixes.
+
+## Contact
+- **Email**: ankush78607@gmail.com.
+- **GitHub**: https://github.com/Ankush1200.
