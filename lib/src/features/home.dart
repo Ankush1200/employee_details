@@ -130,6 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
             future: fetchdetails(),
             builder: (context, snapshot) {
               if (snapshot.hasData) {
+                // creating the new list for the filtered users and assigning to it.
                 var filteredUsers = snapshot.data!.users.where((user) {
                   bool matchesGender = selectedGender == null ||
                       user.gender.toString().split('.').last.toLowerCase() ==
@@ -144,6 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     shrinkWrap: true,
                     itemCount: filteredUsers.length,
                     itemBuilder: (context, index) {
+                      // assigning all the filtered user object to a new user variable.
                       var user = filteredUsers[index];
                       return Padding(
                         padding: const EdgeInsets.symmetric(horizontal: 5.0,vertical: 3),
