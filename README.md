@@ -1,16 +1,22 @@
-# pixels_assignment
+# Employee Details App
 
-A new Flutter project.
+This Employee Details App is a Flutter-based application designed to fetch and display employee data from a network API. The app features an intuitive and aesthetically pleasing user interface, providing an excellent user experience.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Display Employee Data:** The app retrieves and displays employee details from a company database via a network API.
+- **Gender Filtering:** Easily filter employees based on gender for quick and targeted searches.
+- **Age Filtering:** Utilize the Flutter slider widget to filter employees by age. This allows for precise age selection, providing flexibility and accuracy in searches.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter & Dart:** For building the cross-platform application.
+- **Network API:** To fetch real-time employee data.
+- **Flutter Slider Widget:** For implementing the age filtering feature.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How to Use
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/Ankush1200/employee_details.git
+
